@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ej1": "tsc-watch --onSuccess \"node dist/ejercicio_1.js\"",
+    "ej2": "tsc-watch --onSuccess \"node dist/ejercicio_2.js\"",
+    "ej3": "tsc-watch --onSuccess \"node dist/ejercicio_3.js\"",
+    "doc": "typedoc",
+    "test": "mocha",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct03-types-functions-alu0101330778.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct03-types-functions-alu0101330778.github.io/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct03-types-functions-alu0101330778.github.io#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/prompt-sync": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "chai": "^4.3.7",
+    "coveralls": "^3.1.1",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.0",
+    "typedoc": "^0.23.25"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "duplexer": "^0.1.2",
+    "event-stream": "^3.3.4",
+    "from": "^0.1.7",
+    "isexe": "^2.0.0",
+    "map-stream": "^0.1.0",
+    "node-cleanup": "^2.1.2",
+    "path-key": "^3.1.1",
+    "pause-stream": "^0.0.11",
+    "prompt-sync": "^4.2.0",
+    "ps-tree": "^1.2.0",
+    "shebang-command": "^2.0.0",
+    "shebang-regex": "^3.0.0",
+    "split": "^0.3.3",
+    "stream-combiner": "^0.0.4",
+    "string-argv": "^0.3.1",
+    "through": "^2.3.8",
+    "typescript": "^4.9.5",
+    "which": "^2.0.2"
+  }
+}
