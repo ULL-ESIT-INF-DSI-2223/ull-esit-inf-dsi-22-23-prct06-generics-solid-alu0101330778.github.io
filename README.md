@@ -12,7 +12,7 @@ Se ha aceptado la asginación de Github Classroom y se ha clonado el repositorio
 "coveralls": "^3.1.1",
 "nyc": "^15.1.0",
 ```
-
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-alu0101330778.github.io/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-alu0101330778.github.io?branch=main)
 ## Ejercicios.
 ### [Ejercicio 1](/src/ejercicio_1.ts): DSIflix.
 
